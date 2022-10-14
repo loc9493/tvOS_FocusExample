@@ -14,6 +14,7 @@
 		61AD569A28F9665800A972B0 /* FocusExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AD569928F9665800A972B0 /* FocusExampleTests.swift */; };
 		61AD56A428F9665800A972B0 /* FocusExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AD56A328F9665800A972B0 /* FocusExampleUITests.swift */; };
 		61AD56A628F9665800A972B0 /* FocusExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AD56A528F9665800A972B0 /* FocusExampleUITestsLaunchTests.swift */; };
+		61AD56B428F9678200A972B0 /* Focusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AD56B328F9678200A972B0 /* Focusable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		61AD569F28F9665800A972B0 /* FocusExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FocusExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		61AD56A328F9665800A972B0 /* FocusExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusExampleUITests.swift; sourceTree = "<group>"; };
 		61AD56A528F9665800A972B0 /* FocusExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		61AD56B328F9678200A972B0 /* Focusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Focusable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		61AD568728F9665700A972B0 /* FocusExample */ = {
 			isa = PBXGroup;
 			children = (
+				61AD56B228F9676F00A972B0 /* Example */,
 				61AD568828F9665700A972B0 /* FocusExampleApp.swift */,
 				61AD568A28F9665700A972B0 /* ContentView.swift */,
 				61AD568C28F9665800A972B0 /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				61AD56A528F9665800A972B0 /* FocusExampleUITestsLaunchTests.swift */,
 			);
 			path = FocusExampleUITests;
+			sourceTree = "<group>";
+		};
+		61AD56B228F9676F00A972B0 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				61AD56B328F9678200A972B0 /* Focusable.swift */,
+			);
+			path = Example;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61AD56B428F9678200A972B0 /* Focusable.swift in Sources */,
 				61AD568B28F9665700A972B0 /* ContentView.swift in Sources */,
 				61AD568928F9665700A972B0 /* FocusExampleApp.swift in Sources */,
 			);
