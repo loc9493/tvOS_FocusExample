@@ -15,6 +15,7 @@
 		61AD56A428F9665800A972B0 /* FocusExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AD56A328F9665800A972B0 /* FocusExampleUITests.swift */; };
 		61AD56A628F9665800A972B0 /* FocusExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AD56A528F9665800A972B0 /* FocusExampleUITestsLaunchTests.swift */; };
 		61AD56B428F9678200A972B0 /* Focusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AD56B328F9678200A972B0 /* Focusable.swift */; };
+		61AD56B628F96ED200A972B0 /* FocusSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AD56B528F96ED200A972B0 /* FocusSection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		61AD56A328F9665800A972B0 /* FocusExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusExampleUITests.swift; sourceTree = "<group>"; };
 		61AD56A528F9665800A972B0 /* FocusExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		61AD56B328F9678200A972B0 /* Focusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Focusable.swift; sourceTree = "<group>"; };
+		61AD56B528F96ED200A972B0 /* FocusSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				61AD56B328F9678200A972B0 /* Focusable.swift */,
+				61AD56B528F96ED200A972B0 /* FocusSection.swift */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 			files = (
 				61AD56B428F9678200A972B0 /* Focusable.swift in Sources */,
 				61AD568B28F9665700A972B0 /* ContentView.swift in Sources */,
+				61AD56B628F96ED200A972B0 /* FocusSection.swift in Sources */,
 				61AD568928F9665700A972B0 /* FocusExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

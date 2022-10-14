@@ -26,7 +26,7 @@ enum TestExample: String, CaseIterable, Identifiable {
         case .focusable:
             Focusable()
         case .focusSection:
-            EmptyView()
+            FocusSection()
         case .focused:
             EmptyView()
         case .focusState:
