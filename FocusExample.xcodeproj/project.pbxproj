@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6168D7B22938E27F00454EB5 /* FocusNameSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6168D7B12938E27F00454EB5 /* FocusNameSpace.swift */; };
 		61AD568928F9665700A972B0 /* FocusExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AD568828F9665700A972B0 /* FocusExampleApp.swift */; };
 		61AD568B28F9665700A972B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AD568A28F9665700A972B0 /* ContentView.swift */; };
 		61AD568D28F9665800A972B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61AD568C28F9665800A972B0 /* Assets.xcassets */; };
@@ -16,6 +17,9 @@
 		61AD56A628F9665800A972B0 /* FocusExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AD56A528F9665800A972B0 /* FocusExampleUITestsLaunchTests.swift */; };
 		61AD56B428F9678200A972B0 /* Focusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AD56B328F9678200A972B0 /* Focusable.swift */; };
 		61AD56B628F96ED200A972B0 /* FocusSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AD56B528F96ED200A972B0 /* FocusSection.swift */; };
+		61AD56B828F9712C00A972B0 /* FocusValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AD56B728F9712C00A972B0 /* FocusValueView.swift */; };
+		61EA755F29430CB200B8CD48 /* IsFocused.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EA755E29430CB200B8CD48 /* IsFocused.swift */; };
+		61EA756129430E5500B8CD48 /* FocusEqual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EA756029430E5500B8CD48 /* FocusEqual.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6168D7B12938E27F00454EB5 /* FocusNameSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusNameSpace.swift; sourceTree = "<group>"; };
 		61AD568528F9665700A972B0 /* FocusExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocusExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61AD568828F9665700A972B0 /* FocusExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusExampleApp.swift; sourceTree = "<group>"; };
 		61AD568A28F9665700A972B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +53,9 @@
 		61AD56A528F9665800A972B0 /* FocusExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		61AD56B328F9678200A972B0 /* Focusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Focusable.swift; sourceTree = "<group>"; };
 		61AD56B528F96ED200A972B0 /* FocusSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSection.swift; sourceTree = "<group>"; };
+		61AD56B728F9712C00A972B0 /* FocusValueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusValueView.swift; sourceTree = "<group>"; };
+		61EA755E29430CB200B8CD48 /* IsFocused.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsFocused.swift; sourceTree = "<group>"; };
+		61EA756029430E5500B8CD48 /* FocusEqual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusEqual.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +145,10 @@
 			children = (
 				61AD56B328F9678200A972B0 /* Focusable.swift */,
 				61AD56B528F96ED200A972B0 /* FocusSection.swift */,
+				61AD56B728F9712C00A972B0 /* FocusValueView.swift */,
+				6168D7B12938E27F00454EB5 /* FocusNameSpace.swift */,
+				61EA755E29430CB200B8CD48 /* IsFocused.swift */,
+				61EA756029430E5500B8CD48 /* FocusEqual.swift */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -273,8 +285,12 @@
 			files = (
 				61AD56B428F9678200A972B0 /* Focusable.swift in Sources */,
 				61AD568B28F9665700A972B0 /* ContentView.swift in Sources */,
+				6168D7B22938E27F00454EB5 /* FocusNameSpace.swift in Sources */,
+				61EA756129430E5500B8CD48 /* FocusEqual.swift in Sources */,
+				61EA755F29430CB200B8CD48 /* IsFocused.swift in Sources */,
 				61AD56B628F96ED200A972B0 /* FocusSection.swift in Sources */,
 				61AD568928F9665700A972B0 /* FocusExampleApp.swift in Sources */,
+				61AD56B828F9712C00A972B0 /* FocusValueView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

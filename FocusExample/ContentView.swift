@@ -28,15 +28,15 @@ enum TestExample: String, CaseIterable, Identifiable {
         case .focusSection:
             FocusSection()
         case .focused:
-            EmptyView()
+            FocusEqual()
         case .focusState:
             EmptyView()
         case .focusValue:
-            EmptyView()
+            FocusValueContainerView()
         case .isFocused:
-            EmptyView()
+            IsFocused()
         case .focusScope:
-            EmptyView()
+            FocusNameSpace()
         }
     }
 }
