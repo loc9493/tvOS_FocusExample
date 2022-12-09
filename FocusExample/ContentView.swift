@@ -36,6 +36,7 @@ enum TestExample: String, CaseIterable, Identifiable {
         case .isFocused:
             IsFocused()
         case .focusScope:
+            
             FocusNameSpace()
         }
     }
